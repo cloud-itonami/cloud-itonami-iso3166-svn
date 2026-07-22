@@ -1,0 +1,37 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;; Provenance: ZDR-1 and ZVOP-2 corroborated via gov.si/spot.gov.si (official
+;; government portal); ZGD-1's abbreviation corroborated via ajpes.si. Exact
+;; Uradni list RS gazette numbers were not rendered in any page fetched this
+;; session for any of the three — see src/statute/facts.cljc docstring for
+;; the full disclosure.
+
+[#:statute{:id "svn.zgd-1-zakon-o-gospodarskih-druzbah"
+           :title "Zakon o gospodarskih družbah (Companies Act)"
+           :jurisdiction "SVN"
+           :kind :law
+           :law-number "abbreviation \"ZGD-1\" confirmed via ajpes.si (\"Objava sporočil po ZGD-1\"); exact Uradni list RS gazette number NOT independently confirmed this session"
+           :url "https://www.ajpes.si/Registri/Poslovni_register/Splosno"
+           :url-provenance :official-ajpes-si-secondary-reference
+           :retrieved-at "2026-07-23"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "svn.zvop-2-zakon-o-varstvu-osebnih-podatkov"
+           :title "Zakon o varstvu osebnih podatkov (ZVOP-2, Personal Data Protection Act)"
+           :jurisdiction "SVN"
+           :kind :law
+           :law-number "ZVOP-2 (exact Uradni list RS gazette number not independently confirmed this session)"
+           :url "https://spot.gov.si/sl/teme/varstvo-osebnih-podatkov/"
+           :url-provenance :official-gov-si-redirected-to-spot-gov-si
+           :enacted-date "2023-01-26"
+           :retrieved-at "2026-07-23"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "svn.zdr-1-zakon-o-delovnih-razmerjih"
+           :title "Zakon o delovnih razmerjih (ZDR-1, Employment Relationships Act)"
+           :jurisdiction "SVN"
+           :kind :law
+           :law-number "ZDR-1 (exact Uradni list RS gazette number not independently confirmed this session)"
+           :url "https://www.gov.si/teme/delovna-razmerja/"
+           :url-provenance :official-gov-si
+           :enacted-date "2013-03-05"
+           :retrieved-at "2026-07-23"
+           :topic [:labor :employment]}]
