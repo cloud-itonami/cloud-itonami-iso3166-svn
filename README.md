@@ -24,7 +24,7 @@ for an already-incorporated operator entering public contracts in Slovenia.
   Zakon o javnem naročanju (Public Procurement Act) is the legal
   basis (confirmed via gov.si citing "23. člen Zakona o javnem
   naročanju" -- the exact version suffix/gazette number was not
-  independently confirmed this session, see `src/marketentry/facts.cljc`).
+  independently confirmed this session, see `src/marketentry/facts.cljk`).
   Procurement-award legality is reviewed by the Državna revizijska
   komisija (DKOM, dkom.si) -- "Državna revizijska komisija je poseben,
   neodvisen in samostojen državni organ nadzora, ki odloča o
@@ -49,7 +49,7 @@ for an already-incorporated operator entering public contracts in Slovenia.
   is an EU-establishment/NIP pair, not FDI-screening) is deliberate and
   disclosed, not an omission.
 
-See `src/marketentry/facts.cljc` and `src/statute/facts.cljc` for the
+See `src/marketentry/facts.cljk` and `src/statute/facts.cljk` for the
 full citation trail and an explicit provenance disclosure (several
 exact Uradni list RS gazette numbers were not rendered by any official
 page fetched this session -- disclosed as gaps, not fabricated).
@@ -70,7 +70,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Slovenia:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
