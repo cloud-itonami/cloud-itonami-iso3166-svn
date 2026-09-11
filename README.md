@@ -8,7 +8,7 @@ state, eurozone).
 implementing EU Regulation 2019/452).
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 Independent public-sector market-entry & procurement-compliance service
