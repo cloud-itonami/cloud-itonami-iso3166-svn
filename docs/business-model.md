@@ -69,8 +69,8 @@
 - every requirement cites the official portal or regulation, never
   invented; where an exact citation detail (e.g. an Uradni list RS
   gazette number) could not be independently confirmed this session,
-  the gap is disclosed explicitly in `src/marketentry/facts.cljc` and
-  `src/statute/facts.cljc` rather than papered over
+  the gap is disclosed explicitly in `src/marketentry/facts.cljk` and
+  `src/statute/facts.cljk` rather than papered over
 
 ## Honest disclosure: Slovenia's FDI-screening mechanism IS real, unlike Serbia's
 
@@ -83,7 +83,7 @@ notification via Ministrstvo za gospodarstvo, delo in šport. This is
 stated here as a positive, independently verified structural fact about
 Slovenia's actual regime, not a gap in this catalog's coverage, and not
 copied from Poland's differently-shaped EU-establishment/NIP flagship —
-see `src/marketentry/governor.cljc` for the full reasoning.
+see `src/marketentry/governor.cljk` for the full reasoning.
 
 ## Boundary with adjacent actors (read before forking)
 

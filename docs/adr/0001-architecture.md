@@ -31,9 +31,9 @@ structurally distinguishing fact independently verified this session.
 Adding a fabricated eu-establishment/NIP-style pair to this blueprint,
 copying Poland's shape without an independently verified Slovenia-
 specific hook, would have been dishonest; a smaller, single, genuinely
-grounded check is preferred. See `src/marketentry/governor.cljc`
+grounded check is preferred. See `src/marketentry/governor.cljk`
 docstring for the full reasoning and citation trail, and
-`src/marketentry/facts.cljc` / `src/statute/facts.cljc` for the
+`src/marketentry/facts.cljk` / `src/statute/facts.cljk` for the
 complete disclosure of what was and was not independently confirmed
 this session (several exact Uradni list RS gazette numbers could not
 be rendered from any page fetched and are disclosed as gaps rather

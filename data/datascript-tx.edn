@@ -1,9 +1,9 @@
-;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljk
 ;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
 ;; Provenance: ZDR-1 and ZVOP-2 corroborated via gov.si/spot.gov.si (official
 ;; government portal); ZGD-1's abbreviation corroborated via ajpes.si. Exact
 ;; Uradni list RS gazette numbers were not rendered in any page fetched this
-;; session for any of the three — see src/statute/facts.cljc docstring for
+;; session for any of the three — see src/statute/facts.cljk docstring for
 ;; the full disclosure.
 
 [#:statute{:id "svn.zgd-1-zakon-o-gospodarskih-druzbah"
